@@ -1,4 +1,7 @@
 package com.mystartupcompany.propertymanagement.service;
 
-public class PropertyService {
+import com.mystartupcompany.propertymanagement.DTOs.PropertyDTO;
+
+public interface PropertyService {
+    public PropertyDTO saveProperty(PropertyDTO propertyDTO);
 }
