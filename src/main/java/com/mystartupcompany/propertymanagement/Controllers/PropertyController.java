@@ -15,9 +15,8 @@ public class PropertyController {
     @Autowired
     private PropertyService propertyService;
 
-    @PostMapping("/saveproperties")
+    @PostMapping("/save-properties")
     public PropertyDTO saveProperty(@RequestBody PropertyDTO propertyDTO){
-
         return propertyDTO;
 
     }
